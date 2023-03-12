@@ -1,0 +1,9 @@
+
+body {
+    background-color: mediumslateblue;
+}
+.h1-center {
+    max-width: 50%;
+    margin-top: 50%;
+    margin-left: auto;
+}
