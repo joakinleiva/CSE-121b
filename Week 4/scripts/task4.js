@@ -3,27 +3,6 @@
 /* DATA */
 
 // Step 1: Declare a new variable to hold information about yourself
-let me = {
-    'name' : "Joaquin",
-    'photo' : "./images/joaquin leiva formal.jpg",
-    'favoriteFoods' : ["Barbecue", "Pizza", "Hamburger", "Milanesas"+"."],
-    'hobbies': ["Coding", "Spending time with my family", "Investing"+"."],
-}
-
-
-document.querySelector("#photo").setAttribute('src', './images/joaquin leiva formal.jpg');
-document.querySelector("#photo").setAttribute('alt', me.name);
-document.getElementById("name").innerHTML = me.name;
-document.getElementById("favorite-foods").innerHTML = me.favoriteFoods;
-document.getElementById("hobbies").innerHTML = me.hobbies;
-
-
-let placesLived = {
-    'place': {"Chile": 'Argentina'},
-    'length': {"5 years": "22 years"} 
-
-};
-
 
 // Step 2: Inside of the object, add a property named name with a value of your name as a string
 
@@ -63,3 +42,50 @@ let placesLived = {
 // - Create an HTML <dd> element and put its length property in the <dd> element
 
 // Step 9: Append the HTML <dt> and <dd> elements created above to the HTML <dl> element with an ID of places-lived
+
+
+//SOLUTION
+
+let me = {
+    name : "Joaquin",
+    photo : "./images/joaquin leiva formal.jpg",
+    favoriteFoods : ["Barbecue", "Pizza", "Hamburger", "Milanesas"],
+    hobbies: ["Coding", "Spending time with my family", "Investing"],
+    placesLived: [
+        { place: "Argentina", length: "22 years" },
+        { place: "Chile", length: "6 years" }
+    ]
+}
+
+document.querySelector("#photo").setAttribute('src', './images/joaquin leiva formal.jpg');
+document.querySelector("#photo").setAttribute('alt', me.name);
+document.getElementById("name").innerHTML = me.name;
+
+
+// FOOD
+let favoriteFoodsList = document.getElementById('favorite-foods');
+me.favoriteFoods.forEach(function(food) {
+    let foodItem = document.createElement('li');
+    foodItem.textContent = food;
+    favoriteFoodsList.appendChild(foodItem);
+});
+
+// HOBBIES
+me.hobbies.forEach(function(hobby) {
+    let hobbyListItem = document.createElement("li");
+    hobbyListItem.innerHTML = hobby;
+    document.getElementById("hobbies").appendChild(hobbyListItem);
+});
+
+//PLACES LIVED
+me.placesLived.forEach(function(place) {
+    
+    let placeName = document.createElement('dt');
+    placeName.textContent = place.place;
+
+    let placeLength = document.createElement('dd');
+    placeLength.textContent = place.length;
+
+    document.querySelector('#places-lived').appendChild(placeName);
+    document.querySelector('#places-lived').appendChild(placeLength);
+});
