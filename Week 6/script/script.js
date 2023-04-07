@@ -3,84 +3,85 @@ const movies = [
     name: "Inception",
     year: 2010,
     rating: 8.8,
-    cover: "https://www.imdb.com/title/tt1375666/mediaviewer/rm2499739649"
+    cover: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "The Dark Knight",
     year: 2008,
     rating: 9.0,
-    cover: "https://www.imdb.com/title/tt0468569/mediaviewer/rm3838459648/"
+    cover: "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "The Lord of the Rings: The Fellowship of the Ring",
     year: 2001,
     rating: 8.8,
-    cover: "https://www.imdb.com/title/tt0120737/mediaviewer/rm2300568832"
+    cover: "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "Interstellar",
     year: 2014,
     rating: 8.6,
-    cover: "https://www.imdb.com/title/tt0816692/mediaviewer/rm3228691200"
+    cover: "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
   },
   {
     name: "The Godfather",
     year: 1972,
     rating: 9.2,
-    cover: "https://www.imdb.com/title/tt0068646/mediaviewer/rm1078490624/"
+    cover: "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "The Shawshank Redemption",
     year: 1994,
     rating: 9.3,
-    cover: "https://www.imdb.com/title/tt0111161/mediaviewer/rm3553432064/"
+    cover: "https://m.media-amazon.com/images/M/MV5BYTcxYTA0MjAtYzdjNC00ZmFmLTgwYWItMmVhYTY5ZGZhOWQzXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg"
   },
   {
     name: "Forrest Gump",
     year: 1994,
     rating: 8.8,
-    cover: "https://www.imdb.com/title/tt0109830/mediaviewer/rm2300753152"
+    cover: "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "The Matrix",
     year: 1999,
     rating: 8.7,
-    cover: "https://www.imdb.com/title/tt0133093/mediaviewer/rm2929776640"
+    cover: "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "Fight Club",
     year: 1999,
     rating: 8.8,
-    cover: "https://www.imdb.com/title/tt0137523/mediaviewer/rm206220416"
+    cover: "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "Gladiator",
     year: 2000,
     rating: 8.5,
-    cover: "https://www.imdb.com/title/tt0172495/mediaviewer/rm2366639360"
+    cover: "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "Pulp Fiction",
     year: 1994,
     rating: 8.9,
-    cover: "https://www.imdb.com/title/tt0110912/mediaviewer/rm2084548608"
+    cover: "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     name: "The Silence of the Lambs",
     year: 1991,
     rating: 8.6,
-    cover: "https://www.imdb.com/title/tt0102926/mediaviewer/rm4182595584"
+    cover: "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
   },
   {
     name: "Goodfellas",
     year: 1990,
     rating: 8.7,
-    cover: "https://www.imdb.com/title/tt0099685/mediaviewer/rm426491136"
+    cover: "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     name: "Saving Private Ryan",
     year: 1998,
-    rating: 8
+    rating: 8,
+    cover: "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg"
   },
   // Add more movies here...
 ];
